@@ -12,16 +12,24 @@ In this tool we have
 
 # Requirment
 import whois
+
 import dns.resolver
+
 import argparse
+
 import shodan
+
 import socket
+
 import requests
+
 from colorama import init, Fore
 
 # usages
 python3 info_gathering.py -h {to get help}
+
 python3 info_gathering.py -d DOMAIN [-s IP]
+
 example:- python3 info_gathering.py -d facebook.com -o [outfile] -s [ip]
 
 
