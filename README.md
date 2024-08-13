@@ -10,7 +10,7 @@ In this tool we have
 7. getting shodan info.
     For Getting whois result we import a package called shodan
 
-#requirment
+# Requirment
 import whois
 import dns.resolver
 import argparse
@@ -19,7 +19,7 @@ import socket
 import requests
 from colorama import init, Fore
 
-#usages
+# usages
 python3 info_gathering.py -h {to get help}
 python3 info_gathering.py -d DOMAIN [-s IP]
 example:- python3 info_gathering.py -d facebook.com -o [outfile] -s [ip]
