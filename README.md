@@ -10,6 +10,22 @@ In this tool we have
 7. getting shodan info.
     For Getting whois result we import a package called shodan
 
+# Installation:
+sudo git clone https://github.com/kidnapshadow-sidharth/pyportscan.git
+
+cd pyportscan/
+
+sudo chmod +x setup.sh
+
+sudo bash setup.sh
+
+# usages
+python3 info_gathering.py -h {to get help}
+
+python3 info_gathering.py -d DOMAIN [-s IP]
+
+example:- python3 info_gathering.py -d facebook.com -o [outfile] -s [ip]
+
 # Requirment
 import whois
 
@@ -24,13 +40,6 @@ import socket
 import requests
 
 from colorama import init, Fore
-
-# usages
-python3 info_gathering.py -h {to get help}
-
-python3 info_gathering.py -d DOMAIN [-s IP]
-
-example:- python3 info_gathering.py -d facebook.com -o [outfile] -s [ip]
 
 
 
