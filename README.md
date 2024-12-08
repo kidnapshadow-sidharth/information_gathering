@@ -11,9 +11,9 @@ In this tool we have
     For Getting whois result we import a package called shodan
 
 # Installation:
-sudo git clone https://github.com/kidnapshadow-sidharth/pyportscan.git
+sudo git clone https://github.com/kidnapshadow-sidharth/information_gathering.git
 
-cd pyportscan/
+cd information_gathering/
 
 sudo chmod +x setup.sh
 
